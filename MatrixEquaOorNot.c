@@ -16,7 +16,7 @@ a[i][j]=z;
 }
 }
 
-printf("the values is %d %d :",a);
+printf("the values is %d %d :",);
 for(i=0;i<l;i++){
 for(j=0;j<l1;j++){
 printf("Enter the value :");
@@ -24,7 +24,7 @@ scanf("%d",&s);
 b[i][j]=s;
 }
 }
-if(a[i][j]==b[i][j]){
+if(a==b){
     printf("both matrix is equal");
 }
 else{

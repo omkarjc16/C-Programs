@@ -1,7 +1,7 @@
 #include<stdio.h>
-void man(){
-int a=50,b=100;
-int mult=a*b;
+void square(){
+int a=5;
+int square=a*a;
 printf("the mult is %d ",mult);
 }
 int main(){
